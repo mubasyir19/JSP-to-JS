@@ -10,6 +10,7 @@ document.addEventListener =
       const username = document.getElementById('username').value.trim();
       const password = document.getElementById('password').value.trim();
 
+      //   Jika username atau password tidak terisi
       if (!username || !password) {
         errorMessage.textContent = 'username dan password harus diisi.';
         return;
